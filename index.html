@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rumour Spreading ALgorithm</title>
+    <style>
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 30%;
+      }
+
+      td,
+      th {
+        border: 1px solid #dddddd;
+        text-align: center;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h2>Rumour Spreading Algorithm</h2>
+      <br />
+      <label></label>
+      <h3>Original Nodes:</h3>
+      <label id="ogArray"></label><br /><br/>
+      <h3><label>0 - Does not know the rumour <br/> 1 - Knows the rumour <br/> C - Crashed nodes</label></h3>
+      <br/><br/>
+      <table id="roundTable">
+        <tr>
+          <th>Round</th>
+          <th>Updated Nodes</th>
+        </tr>
+      </table>
+    </center>
+    <script src="rsa.js"></script>
+  </body>
+</html>
