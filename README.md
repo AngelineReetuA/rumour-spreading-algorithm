@@ -12,3 +12,6 @@ This algorithm is written in Javascript where the nodes are represented by an ar
 - C: Crashed node
 
 A spreader is the node which knows the rumour and a spreadee is the node which came to know the rumour from the spreader. The event of a spreader choosing a node which does not already know the rumour is called a **Good event**. The event of a spreader choosing a node which knows the rumour already is a **Bad event**. 
+
+## VIEW IT HERE
+https://angelinereetua.github.io/rumour-spreading-algorithm/
